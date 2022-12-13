@@ -6,7 +6,7 @@
 /*   By: nstoutze <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 16:17:19 by nstoutze          #+#    #+#             */
-/*   Updated: 2022/12/12 18:39:03 by nstoutze         ###   ########.fr       */
+/*   Updated: 2022/12/13 18:46:11 by nstoutze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-# include <stdio.h> // A DEGAGER // A DEGAGER // A DEGAGER
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <fcntl.h>

@@ -6,11 +6,11 @@
 /*   By: nstoutze <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 16:24:28 by nstoutze          #+#    #+#             */
-/*   Updated: 2022/12/12 19:40:03 by nstoutze         ###   ########.fr       */
+/*   Updated: 2022/12/13 18:45:21 by nstoutze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	slen(char *s)
 {
