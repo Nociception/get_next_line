@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstoutze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: nstoutze <nstoutze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 14:27:29 by nstoutze          #+#    #+#             */
-/*   Updated: 2022/12/13 18:16:45 by nstoutze         ###   ########.fr       */
+/*   Updated: 2023/02/06 17:33:07 by nstoutze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,17 +117,3 @@ char	*get_next_line(int fd)
 		}
 	}
 }
-/*
-int main()
-{
-	int fd = open("test.txt", O_RDONLY);
-	int n = 0;
-	while (n++ < 20)
-	{
-		printf("%s", get_next_line(fd));
-	}
-	//system("leaks a.out");
-	close(fd);
-	return 0;
-}
-*/
